@@ -31,8 +31,10 @@ Nota: para poder crear un token debe estar habilitado el doble factor de autenti
 - Abrir una terminal en la misma carpeta de repositorio.
 - Escriba los siguientes comandos:
 ```
-	$git init # Convierte la carpeta del sistema en una carpeta de repositorio.
+	$git init # Convierte la carpeta del sistema en una carpeta de repositorio. 
+(Si crea el repositorio desde GitHub es mejor usar git clone)
 	$git pull 'Direccion HTTPS del repositorio de GitHub' # Esto baja los archivos del repositorio y hace fetch.
+(Si crea el repositorio desde GitHub, con git clone no es necesario el comando git pull)
 	$git status # Esto mostrará los archivos que no sea han agregado a la rama principal.
 	$git add . # Esto agrega los archivos al commit
 	$git commit -m 'Escribe un mensaje' # Esto crea un mensaje junto a los archivos
